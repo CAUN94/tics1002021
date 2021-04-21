@@ -48,9 +48,11 @@ while True:
         if calor_f < 0:
             calor_f *= -1
             kilos = calor_f/7000
+            print('Usted consume más calorías de las que gasta.')
             print(f'Usted subira {kilos}kg cada 30 días')
         else :
             kilos = calor_f/7000
+            print('Usted consume menos calorías de las que gasta.')
             print(f'Usted bajara {kilos}kg cada 30 días')
         break
     if r == 'b':
