@@ -1,8 +1,5 @@
 def suma(num1,num2):
-    # a = 2
-    # b = 4
-    # c = 5
-    # sum = a + b + c
+
     return (num1 + num2)
 
 def factorial(num):
