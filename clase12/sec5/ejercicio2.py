@@ -25,6 +25,7 @@
 # check: Al final del examen se debe mostrar la nota del estudiante, calculada como la suma de las respuestas correctas más un punto base
 # Finalmente es necesario, que mediante el uso de funciones permita calcular el promedio de notas del curso que rindió los exámenes (promedio de notas obtenidos por cada alumno, que se almacenó en una lista)
 
+
 def ingresar_estudiantes(nr):
     estudiantes = []
     for i in range(nr):
