@@ -19,7 +19,7 @@
 
 import random
 
-lista_animales = ['gato','perro','caballo']
+lista_animales = ['gato','perro','caballo','tigre','leon','pantera']
 largo_lista = len(lista_animales)
 valor_aleatorio = random.randint(0,largo_lista-1)
 palabra_secreta = lista_animales[valor_aleatorio]
@@ -32,9 +32,7 @@ for i in palabra_secreta:
     print('-',end="")
 print('')
 while True:
-    
 
-    
     letra_usuario = input('Ingresar una letra en minuscula: ')
 
     flag_existe_letra = False
