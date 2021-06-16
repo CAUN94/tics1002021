@@ -8,7 +8,6 @@ for i in range(10):
 print(lista1)
 print(lista2)
 
-
 max1 = lista1[0]
 max2 = lista2[0]
 for i in range(10):
